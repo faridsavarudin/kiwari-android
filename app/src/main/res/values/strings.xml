@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">KiwariAndroid</string>
+    <string name="sorry">Sorry</string>
+    <string name="edit">Edit</string>
+    <string name="hapus">hapus</string>
+    <string name="tambah">Tambah</string>
+    <string name="harga">Harga</string>
+    <string name="url_image">Url image</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.main.MainActivity">
+
+
+    <com.test.kiwariandroid.utils.CustomRecycler
+            android:layout_width="match_parent"
+            android:id="@+id/recycler"
+            android:layout_height="match_parent">
+
+    </com.test.kiwariandroid.utils.CustomRecycler>
+
+    <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:id="@+id/fab"
+            android:src="@drawable/ic_add_white_24dp"
+            android:layout_margin="16dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"/>
+
+</RelativeLayout>
